@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+.html,
+body {
+  background-color:   #e3bd99  ;
+}
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 5px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.cookie-button {
+  width: 150px;
+  height: 150px;
+  background: url("./cookie.png") center center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.cookie-button:active {
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+}
+
+.currency {
+  margin: 20px 0 80px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  height: 150px;
+  background-color:   #efe3d7  ;
+  margin: 25px;
+  border-radius: 25px;
+}
+
+.store-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color:  #e9d4c0 ;
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.7);
+  border-radius: 100px;
+  margin: 25px 15px;
+  cursor: pointer;
+}
+
+.store-item:active {
+  width: 96px;
+  height: 96px;
+  border: dashed 2px rgb(255, 215, 64, 0.1);
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+}
+
+.icon-price {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(./coin.PNG)
+    center center;
+  background-size: cover;
+}
